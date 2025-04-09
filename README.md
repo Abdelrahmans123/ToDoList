@@ -65,12 +65,27 @@ Run database migrations to create the necessary tables:
 ```bash
 php artisan migrate
 ```
+
+## Step 3: Set up JWT Authentication in Laravel
+- Install tymon/jwt-auth package:
+```bash
+composer require tymon/jwt-auth
+```
+- Publish the JWT configuration file:
+```bash
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+- Set up the JWT secret key:
+```bash
+php artisan jwt:secret
+```
+This command will generate a secret key and add it to your .env file as JWT_SECRET.
 Start the Laravel development server:
 ```bash
 php artisan serve
 ```
 This will start the server at http://127.0.0.1:8000.
-## Step 3: Set up the Frontend (React)
+## Step 4: Set up the Frontend (React)
 Navigate to the frontend directory (assuming the frontend is inside a frontend/ folder):
 ```bash
 cd frontend/to_do_list
@@ -84,7 +99,7 @@ Start the React development server:
 npm run dev
 ```
 This will start the React frontend at http://localhost:5173.
-## Step 4: Testing the Application
+## Step 5: Testing the Application
 Once both the backend and frontend are running, navigate to the React app at http://localhost:5173 in your browser. You should be able to create, update, delete, and manage tasks in your ToDo list.
 ## Usage
 * **Create Task:** Enter a title and description, select a category, and set a due date. Then click on "Create Task".
