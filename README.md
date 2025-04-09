@@ -100,4 +100,4 @@ If you encounter any issues during installation, make sure to check:
 * Your database connection details in .env file are correct.
 * Dependencies for both Laravel and React have been successfully installed.
 ## License
-This project is open-source and available under the [MIT] (https://choosealicense.com/licenses/mit/) License.
+This project is open-source and available under the [MIT](https://choosealicense.com/licenses/mit/) License.
