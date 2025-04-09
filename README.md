@@ -74,7 +74,8 @@ php artisan migrate
 php artisan jwt:secret
 ```
 This command will generate a secret key and add it to your .env file as JWT_SECRET.
-/n
+
+
 Start the Laravel development server:
 ```bash
 php artisan serve
