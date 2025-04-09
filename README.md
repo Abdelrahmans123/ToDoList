@@ -22,7 +22,7 @@ Before running this application, make sure you have the following software insta
 - [Node.js](https://nodejs.org/) (for React)
 - [PHP](https://www.php.net/) (for Laravel)
 - [Composer](https://getcomposer.org/) (for Laravel dependency management)
-- [MySQL](https://www.mysql.com/) or any other database you prefer
+- [MySQL](https://www.mysql.com/)
 - [Git](https://git-scm.com/) (for version control)
 
 ## Installation and Setup
