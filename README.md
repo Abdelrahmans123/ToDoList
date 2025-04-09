@@ -33,6 +33,8 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Abdelrahmans123/ToDoList.git
+```
+```bash
 cd ToDoList
 ```
 ## Step 2: Set up the Backend (Laravel)
@@ -67,14 +69,6 @@ php artisan migrate
 ```
 
 ## Step 3: Set up JWT Authentication in Laravel
-- Install tymon/jwt-auth package:
-```bash
-composer require tymon/jwt-auth
-```
-- Publish the JWT configuration file:
-```bash
-php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
-```
 - Set up the JWT secret key:
 ```bash
 php artisan jwt:secret
